@@ -16,8 +16,8 @@ Before you begin, make sure you have the following installed:
 
 Start by cloning this repository to your local machine:
 
-````git clone [URL_of_the_Repository]
-cd [Repository_Name]```
+`git clone [URL_of_the_Repository]`
+`cd [Repository_Name]`
 
 ## Customizing Your Trading Algorithm
 
@@ -45,7 +45,6 @@ To run the Functions Framework server locally, execute the following command:
 
 `OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES functions-framework --target=trade_hts --signature-type=cloudevent`
 
-
 This command starts the server on your local machine, allowing you to send events and test your algorithm in a serverless function environment.
 
 ## Sending Events for Testing
@@ -59,4 +58,7 @@ We encourage contributions to this repository! If you've developed an enhancemen
 ## Support
 
 If you encounter any issues or have questions, please file an issue in the repository's issue tracker.
-````
+
+```
+
+```
